@@ -1,0 +1,19 @@
+table, th, td {
+      border:1px solid black;
+}
+
+h1
+{
+    background-color: black;
+    color: aqua;
+}
+
+p{
+
+    font-size: large;
+}
+
+body
+{
+    background-color: blanchedalmond;
+}

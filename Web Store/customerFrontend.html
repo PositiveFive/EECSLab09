@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="formchecker.js"></script>
+</head>
+
+<body>
+    <form name="myform" action="customerBackend.php" onsubmit="return checkForm()" method="post">
+
+        <label for="email">Username:</label><input type="email" id="email" name="email" required><br>
+        <label for="password">Password:</label><input type="password" id="password" name="password" required><br><br>
+
+        <h1>Store</h1><br>
+
+        <label for="pickles">Pickles $4 each:</label><input type="number" name="pickles" min="0" required><br>
+        <label for="mochi">Mochi cat Free:</label><input type="number" name="mochi" min="0" required><br>
+        <label for="drink">Drink $2:</label><input type="number" name="drink" min="0" required><br><br>
+
+        <p>Shipping!:)</p><div id="badshipping"></div><br>
+        
+        <input type="radio" id="free" name="shipping" value="0" required> 
+            <label for="free">Free 7 day</label><br>
+        <input type="radio" id="overnight" name="shipping" value="50">
+            <label for="overnight">$50 overnight</label><br>
+        <input type="radio" id="three" name="shipping" value="5">
+            <label for="three">$5 three day</label><br>
+
+        <input type="submit" value="Submit" id="submitButton">
+    </form>
+</body>
+<!-- action="customerBackend.php" method="post" -->
+</html>

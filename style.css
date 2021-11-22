@@ -1,0 +1,11 @@
+a
+{
+    background-color: black;
+    color: aqua;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

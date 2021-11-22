@@ -1,0 +1,22 @@
+p {
+    background-color: rgb(255, 255, 255);
+    width: 500px
+
+}
+
+p:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+
+a.links
+{
+    background-color: black;
+    color: aqua;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
